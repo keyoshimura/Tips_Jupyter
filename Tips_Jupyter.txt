@@ -1,0 +1,12 @@
+●新しい仮想環境をJupyterから使えるように設定する
+①利用可能なカーネルの表示
+jupyter kernelspec list
+
+
+②仮想環境をアクティベート
+source activate test
+
+③カーネルを追加
+ipython kernel install --user --name=python35 --display-name=python35
+
+
